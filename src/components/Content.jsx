@@ -7,7 +7,7 @@ const Content = (props) => {
   console.log(props);
   return (
     // <div style={{ color: props.color }}>
-    <div style={{ color: "grey" }}>
+    <div style={{ backgroundColor: "grey" }}>
       <Title name={props.name} />
       <Description text={props.text} />
     </div>
